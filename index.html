@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link type="icon" href="logo.png" type="png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example html page</title>
+    <link rel="stylesheet" href="ex1.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=library_books" />
+    <!--Used for linking google icons-->
+</head>
+
+<body>
+    <header>
+        <div id="top">
+            <div class="logo">
+                <img src="logo.png" alt="logo" width="175" height="120">
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="/">Home</a></li> <!--"/" since it is the first page of the html document-->
+                    <li><a href="#">Subjects</a></li> <!-- "#" for navigating in between the pages-->
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <a class="btn" href="#">Login</a>
+                <a class="btn-primary" href="#">Register</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="intro">
+            <div class="row">
+                <div class="span5">
+                    <div class="intro-text">
+                        <h1>Educational Template</h1>
+                        <p>Search for subjects or courses</p>
+                    </div>
+                    <form class="form">
+                        <input type="text" name="search" id="search" placeholder="search for match">
+                        <button class=" btn btn-primary" type="submit">Search</button>
+                    </form>
+
+                </div>
+                <div class="span5">
+                    <div class="intro-img">
+                        <!--if needed any image can be put will show near to the search bar-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="stat">
+            <div class="row">
+
+                <div class="span3">
+                    <div class="stat-item">
+                        <span class="material-symbols-outlined text-purple bg-purple stat-icon">
+                            library_books
+                        </span>
+                        <span class="stat-count">100</span>
+                        <p>Assignments</p>
+                    </div>
+                </div>
+
+                <div class="span3">
+                    <div class="stat-item">
+                        <span class="material-symbols-outlined text-red bg-red stat-icon">
+                            library_books
+                        </span>
+                        <span class="stat-count">234</span>
+                        <p>Projects</p>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="stat-item">
+                        <span class="material-symbols-outlined text-pink bg-pink stat-icon">
+                            library_books
+                        </span>
+                        <span class="stat-count">133</span>
+                        <p>Question </p>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="stat-item">
+                        <span class="material-symbols-outlined bg-green text-green stat-icon">
+                            library_books
+                        </span>
+                        <span class="stat-count">100</span>
+                        <p>Courses</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section id="about">
+            <div class="section-title text-center">
+                <h2> Learn More</h2>
+                <p>This website is to get learning materials for Computer Science Engineering Students and contains
+                    question banks Also important courses that are necessary.</p>
+
+            </div>
+            <div class="row">
+                <div>
+                    <div class="about-item">
+                        <span class="bg-red text-red">1</span>
+                        <h3>Educational<br>Contents</h3>
+                        <p>This site Provides many contents for studying</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="about-item">
+                        <span class="bg-green text-green">2</span>
+                        <h3>Learning<br>career</h3>
+                        <p>Learning includes reading practicing the contents practically.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="about-item">
+                        <span class="bg-purple text-purple">3</span>
+                        <h3>Study<br>Support</h3>
+                        <p>Study support helps to enhance the mode of study.</p>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </section>
+        <section id="courses">
+            <div class="row">
+                <div class="span5">
+                    <div class="section-title">
+                        <h2>New Courses</h2>
+                    </div>
+                </div>
+                <div class="span5">
+                    <div class="section-button">
+                        <a href="courses.html" class="btn btn-primary">See all Courses</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

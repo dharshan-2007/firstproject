@@ -1,0 +1,276 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 1024px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+
+    color: black;
+}
+
+#top {
+    display: flex;
+}
+
+.btn {
+
+    text-align: center;
+    border: 1px solid #0953ff;
+    border-radius: 3px;
+
+    padding: 6px 10px;
+}
+
+.btn-primary {
+    background-color: rgb(67, 113, 252);
+    color: white;
+    text-align: center;
+    border: #0953ff;
+    padding: 6px 10px;
+}
+
+.logo {
+    width: 25%;
+    display: block;
+}
+
+.menu {
+    align-content: center;
+    width: 60%;
+    display: inline-block;
+
+}
+
+.login {
+    width: 20%;
+    display: inline-block;
+    align-content: center;
+
+}
+
+.login a {
+    display: block;
+
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.span3 {
+    width: 25%;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.span5 {
+    width: 50%;
+    padding-bottom: 120px;
+}
+
+.bg-purple{
+    background-color: rgb(248, 194, 248);
+    
+}
+.bg-red{
+    background-color: rgb(253, 191, 191);
+}
+.bg-green{
+    background-color: rgb(194, 250, 194);
+}
+.bg-pink{
+    background-color: rgb(243, 193, 243);
+}
+
+.text-purple{
+    color: purple;
+    
+}
+.text-red{
+    color:red;
+}
+.text-green{
+    color:green;
+}
+.text-pink{
+    color: rgb(224, 29, 143);
+}
+
+
+.row {
+    display: flex;
+}
+
+.row>* { /*Universal Selector*/
+    padding-left: 1em;
+    padding-right: 01em;
+}
+
+#intro {
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: 100%;
+}
+
+.intro-text h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+}
+
+#intro p {
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#search {
+    padding: 10px 30px;
+    border: none;
+    flex: 1;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+
+
+
+.form {
+    background-color: white;
+    padding: 5px;
+    transition: border 0.5s ease;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form:focus-within {
+    border: 2px solid #0953ff;
+}
+
+.material-symbols-outlined {     /*Obtained from the google icons*/
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+/*Stat Section*/
+#stat{
+    margin-top: -50px;
+}
+
+.stat-item{
+    background-color: #ffff;
+    padding:15px;
+    border-radius: 10px;
+    box-shadow: 10px 15px 20px rgb(94, 94,94,0.1)  ;
+    border:1px solid #ddd;
+}
+
+.stat-icon{
+    width:50px;
+    height: 50px;
+    font-size: 20px;
+    text-align:center;
+    border-radius: 50%;
+    float:left;
+   line-height: 50px !important;
+   margin-right:10px;
+   position: relative;
+   top:-9px;
+}
+.stat-item p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:13px;
+}
+.stat-count{
+    font-weight: bold;
+}
+
+/*About Section*/
+#about{
+    background-color: rgb(258, 242, 238);
+    padding-top:70px;
+    padding-bottom: 70px; /*(or) padding: 80px 0*/
+    margin-top: 20px;
+}
+
+.section-title{
+    margin-bottom: 40px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.section-title h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.section-title p{
+    width:50%;
+    margin:auto; /*This helps to bring the para element to center of the page*/
+    margin-top:20px;
+    color:rgb(50,50,50)
+}
+.about-item{
+    background-color: white;
+    box-shadow:10px 15px 20px rgba(94,94,94,0.1);
+    padding: 40px;
+}
+.about-item span{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+.about-item h3{
+    font-size:20px;
+    
+}
+.about-item p{
+  clear:both; /*Clears the effect of float left which is used in above elements*/
+  margin-top: 20px;
+  color:rgb(50,50,50);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Courses section*/
+
+#courses{
+    background-color: rgb(249,249,249);
+    padding:80px 0;
+}
+
+.section-button{
+    float:right;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}

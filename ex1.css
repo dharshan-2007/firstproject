@@ -5,8 +5,18 @@
     margin: 0;
 }
 
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+        padding:10px;
+        display:flex;
+        flex-wrap: wrap;
+        
+    }
+}
+
 body {
-    width: 1024px;
+    width:1024px;
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -15,7 +25,12 @@ body {
 a {
 
     color: black;
+   text-decoration: none;
+   transition: all 0.6s ease-in ;
 }
+a:hover{
+    color:#0953ff
+ }
 
 #top {
     display: flex;
@@ -36,6 +51,11 @@ a {
     text-align: center;
     border: #0953ff;
     padding: 6px 10px;
+    transition: all 0.5s ease-in-out;
+}
+.btn-primary:hover{
+    color:white;
+    background-color: #0953ff;
 }
 
 .logo {
@@ -54,15 +74,16 @@ a {
     width: 20%;
     display: inline-block;
     align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
 .login a {
     display: block;
-
-
+   
 }
-
+ 
 nav ul {
     padding: 0;
     margin: 0;
@@ -83,6 +104,10 @@ nav ul li {
 .span5 {
     width: 50%;
     padding-bottom: 120px;
+}
+
+.span4{
+    width:33.33%;
 }
 
 .bg-purple{
@@ -116,6 +141,9 @@ nav ul li {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
+    
+ 
 }
 
 .row>* { /*Universal Selector*/
@@ -179,7 +207,8 @@ nav ul li {
 
 /*Stat Section*/
 #stat{
-    margin-top: -50px;
+    margin-top: -35px;
+    position:relative;
 }
 
 .stat-item{
@@ -215,7 +244,7 @@ nav ul li {
     background-color: rgb(258, 242, 238);
     padding-top:70px;
     padding-bottom: 70px; /*(or) padding: 80px 0*/
-    margin-top: 20px;
+    margin-top: -30px;
 }
 
 .section-title{
@@ -267,10 +296,151 @@ nav ul li {
 #courses{
     background-color: rgb(249,249,249);
     padding:80px 0;
+    margin-top: 10px;
 }
 
 .section-button{
     float:right;
     margin-bottom: 25px;
     margin-top: 25px;
+}
+
+.course-item{
+    width:320px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    background-color:white;
+    border-radius: 2%;
+    box-shadow:10px 15px 20px rgba(94,94,94,0.4) ;
+    transition:0.5s ease;
+}
+
+.course-item:hover{
+    box-shadow: 12px 20px 20px rgba(94,94,94,0.7);
+}
+
+.course-image{
+    position: relative;
+}
+.course-image img{
+    width:100%;
+    padding-top: 40px;
+    height:250px;
+}
+.course-image span{
+    position:absolute;
+    top:5px;
+    left:5px;
+     background-color: rgb(84,125,247);
+    color:white;
+    padding:2px 5px;
+    border-radius:5px;
+    transition: all 0.3s ease-out;
+}
+
+.course-image span:hover{
+    background-color: #cb44cb;
+}
+
+.course-item h3{
+    margin: 20px auto;
+    text-align: center;
+    transition:0.3s;
+}
+.course-item a:hover{
+    color:#cb44cb;
+}
+
+.course-info{
+    text-align: center;
+}
+.course-info p{
+    display:inline;
+    margin-left:20px;
+    align-items: center;
+    
+}
+
+
+.course-price{
+    text-align: center;
+    border-top:1px solid #ccc;
+    color:#0953ff;
+    font-size:18px;
+    font-weight: 600;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+.course-price:hover{
+    color:#cb44cb;
+    
+}
+
+.course-price span{
+   font-size: 16px;
+   transition:0.3s;
+}
+
+.course-price span{
+    color:#0953ff;
+}
+
+/*Footer Section*/
+footer{
+    background-color: rgb(245,245,252);
+    padding:80px 0;
+}
+
+footer img{
+    width:150px;
+    margin-bottom: 10px;
+}
+
+footer p{
+    margin-bottom: 10px;
+}
+footer ul{
+    list-style-type:none;
+    padding-left:0px ;
+}
+
+.socialmedia ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.socialmedia ul li a{
+    background-color: white;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+
+footer h3{
+    margin-bottom: 20px;
+
+}
+ footer ul li{
+    margin-bottom: 10px;
+
+ }
+ 
+ .contact-info span{
+    color:#0953ff;
+    font-size:20px ;
+    position: relative;
+    top:5px;
+ }
+ 
+ .contact-info p{
+    display:inline-block;
+    margin-bottom: 20px;
+ }
+.socialmedia ul li a:hover{
+    background-color: #cb44cb;
+    color:white;
 }

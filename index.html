@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="container">
 
 <head>
     <link type="icon" href="logo.png" type="png">
@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Example html page</title>
     <link rel="stylesheet" href="ex1.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=library_books" />
-    <!--Used for linking google icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+
+    <!--Used for linking google icons--><!--<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /> This link is used when there is more than one symbol to be used on the web page-->
 </head>
 
 <body>
@@ -58,9 +59,9 @@
 
                 <div class="span3">
                     <div class="stat-item">
-                        <span class="material-symbols-outlined text-purple bg-purple stat-icon">
-                            library_books
-                        </span>
+                       <span class="material-symbols-outlined text-purple bg-purple stat-icon">
+assignment
+</span>
                         <span class="stat-count">100</span>
                         <p>Assignments</p>
                     </div>
@@ -69,7 +70,7 @@
                 <div class="span3">
                     <div class="stat-item">
                         <span class="material-symbols-outlined text-red bg-red stat-icon">
-                            library_books
+                            view_kanban
                         </span>
                         <span class="stat-count">234</span>
                         <p>Projects</p>
@@ -78,7 +79,7 @@
                 <div class="span3">
                     <div class="stat-item">
                         <span class="material-symbols-outlined text-pink bg-pink stat-icon">
-                            library_books
+                            forum
                         </span>
                         <span class="stat-count">133</span>
                         <p>Question </p>
@@ -87,7 +88,7 @@
                 <div class="span3">
                     <div class="stat-item">
                         <span class="material-symbols-outlined bg-green text-green stat-icon">
-                            library_books
+                            play_lesson
                         </span>
                         <span class="stat-count">100</span>
                         <p>Courses</p>
@@ -105,21 +106,21 @@
 
             </div>
             <div class="row">
-                <div>
+                <div class="span4">
                     <div class="about-item">
                         <span class="bg-red text-red">1</span>
                         <h3>Educational<br>Contents</h3>
                         <p>This site Provides many contents for studying</p>
                     </div>
                 </div>
-                <div>
+                <div class="span4">
                     <div class="about-item">
                         <span class="bg-green text-green">2</span>
                         <h3>Learning<br>career</h3>
                         <p>Learning includes reading practicing the contents practically.</p>
                     </div>
                 </div>
-                <div>
+                <div class="span4">
                     <div class="about-item">
                         <span class="bg-purple text-purple">3</span>
                         <h3>Study<br>Support</h3>
@@ -147,12 +148,232 @@
                 </div>
             </div>
             <div class="row">
-                <div>
-                    <div></div>
+                <div class="span4 course-item">
+                    <div class="course-image">
+                        <img src="/course image/html.png" alt="HTML course mastery">
+                        <span>Web Development</span>
+                    </div>
+                    <h3>
+                        <a href="#">Mastering html5 - Beginners</a>
+                    </h3>
+                    <div class="course-info">
+                        <p>
+                            <span class="material-symbols-outlined">
+                                book_4
+                            </span>
+                            20 lectures
+                        </p>
+                        <p>
+                            <span class="material-symbols-outlined">
+                                timer
+                            </span>
+                            4 hours
+                        </p>
+                    </div>
+                    <p class="course-price">
+                        <span class="material-symbols-outlined">
+                            currency_rupee
+                        </span>
+                        1240
+                    </p>
                 </div>
+                <div class="span4 course-item">
+                    <div class="course-image">
+                        <img src="/course image/css.png" alt="CSS course mastery">
+                        <span>Web Development</span>
+                    </div>
+                    <h3>
+                        <a href="#">Mastering CSS3 - Beginners</a>
+                    </h3>
+                    <div class="course-info">
+                        <p>
+                            <span class="material-symbols-outlined">
+                                book_4
+                            </span>
+                            25 lectures
+                        </p>
+                        <p>
+                            <span class="material-symbols-outlined">
+                                timer
+                            </span>
+                            5 hours
+                        </p>
+                    </div>
+                    <p class="course-price">
+                        <span class="material-symbols-outlined">
+                            currency_rupee
+                        </span>
+                        1444
+                    </p>
+                </div>
+                <div class="span4 course-item">
+                    <div class="course-image">
+                        <img src="/course image/js.png" alt="js course mastery">
+                        <span>Web Development</span>
+                    </div>
+                    <h3>
+                        <a href="#">Java Script - Beginners</a>
+                    </h3>
+                    <div class="course-info">
+                        <p>
+                            <span class="material-symbols-outlined">
+                                book_4
+                            </span>
+                            40 lectures
+                        </p>
+                        <p>
+                            <span class="material-symbols-outlined">
+                                timer
+                            </span>
+                            6 hours
+                        </p>
+                    </div>
+                    <p class="course-price">
+                        <span class="material-symbols-outlined">
+                            currency_rupee
+                        </span>
+                        2500
+                    </p>
+                </div>
+                <div class="span4 course-item">
+                    <div class="course-image">
+                        <img src="/course image/react.png" alt="react course mastery">
+                        <span>Web Development</span>
+                    </div>
+                    <h3>
+                        <a href="#">React - Intermediate</a>
+                    </h3>
+                    <div class="course-info">
+                        <p>
+                            <span class="material-symbols-outlined">
+                                book_4
+                            </span>
+                            30 lectures
+                        </p>
+                        <p>
+                            <span class="material-symbols-outlined">
+                                timer
+                            </span>
+                            7 hours
+                        </p>
+                    </div>
+                    <p class="course-price">
+                        <span class="material-symbols-outlined">
+                            currency_rupee
+                        </span>
+                        3000
+                    </p>
+                </div>
+                <div class="span4 course-item">
+                    <div class="course-image">
+                        <img src="/course image/typescript.png" alt="Type Script course mastery">
+                        <span>Web Development</span>
+                    </div>
+                    <h3>
+                        <a href="#">Type Script - Intermediate</a>
+                    </h3>
+                    <div class="course-info">
+                        <p>
+                            <span class="material-symbols-outlined">
+                                book_4
+                            </span>
+                            30 lectures
+                        </p>
+                        <p>
+                            <span class="material-symbols-outlined">
+                                timer
+                            </span>
+                            8 hours
+                        </p>
+                    </div>
+                    <p class="course-price">
+                        <span class="material-symbols-outlined">
+                            currency_rupee
+                        </span>
+                        4000
+                    </p>
+                </div>
+                <div class="span4 course-item">
+                    <div class="course-image">
+                        <img src="/course image/web.png" alt="Web application course mastery">
+                        <span>Web Development</span>
+                    </div>
+                    <h3>
+                        <a href="#">Web Development - Advanced</a>
+                    </h3>
+                    <div class="course-info">
+                        <p>
+                            <span class="material-symbols-outlined">
+                                book_4
+                            </span>
+                            50 lectures
+                        </p>
+                        <p>
+                            <span class="material-symbols-outlined">
+                                timer
+                            </span>
+                            15 hours
+                        </p>
+                    </div>
+                    <p class="course-price">
+                        <span class="material-symbols-outlined">
+                            currency_rupee
+                        </span>
+                        6000
+                    </p>
+                </div>
+
             </div>
         </section>
     </main>
+    <footer>
+        <div class="row">
+            <div class="span4">
+                <a href="/">
+                    <img src="logo.png" alt="logo">
+                </a>
+                <p>
+                    This website is for study purpose .contains many courses and resourses to study making it easier.
+                </p>
+                <div class="socialmedia">
+                    <ul>
+                        <li><a href="#"><span class="ti-twitter"></span></a></li>
+                        <li><a href="#"><span class="ti-facebook"></span></a></li>
+                        <li><a href="#"><span class="ti-linkedin"></span></a></li>
+                        <li><a href="#"><span class="ti-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="span4">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Become a part of us</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="span4 contact-info">
+                <h3>
+                    Contact Information
+                </h3>
+                <address>
+                    <div>
+                        <span class="ti-map"></span>
+                        <p>address of the page</p>
+                    </div>
+                    <div>
+                        <span class="ti-email"></span>
+                        <p>examplemail@gmail.com</p>
+                    </div>
+                    </span>
+                </address>
+
+            </div>
+        </div>
+
+    </footer>
 
 </body>
 

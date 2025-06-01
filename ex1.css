@@ -6,17 +6,17 @@
 }
 
 @media (max-width:768px) {
-    .container{
+    .container {
         width: 100%;
-        padding:10px;
-        display:flex;
+        padding: 10px;
+        display: flex;
         flex-wrap: wrap;
-        
+
     }
 }
 
 body {
-    width:1024px;
+    width: 1024px;
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -25,12 +25,13 @@ body {
 a {
 
     color: black;
-   text-decoration: none;
-   transition: all 0.6s ease-in ;
+    text-decoration: none;
+    transition: all 0.6s ease-in;
 }
-a:hover{
-    color:#0953ff
- }
+
+a:hover {
+    color: #0953ff
+}
 
 #top {
     display: flex;
@@ -53,8 +54,9 @@ a:hover{
     padding: 6px 10px;
     transition: all 0.5s ease-in-out;
 }
-.btn-primary:hover{
-    color:white;
+
+.btn-primary:hover {
+    color: white;
     background-color: #0953ff;
 }
 
@@ -81,9 +83,9 @@ a:hover{
 
 .login a {
     display: block;
-   
+
 }
- 
+
 nav ul {
     padding: 0;
     margin: 0;
@@ -97,7 +99,7 @@ nav ul li {
 
 .span3 {
     width: 25%;
-    padding:10px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -106,35 +108,41 @@ nav ul li {
     padding-bottom: 120px;
 }
 
-.span4{
-    width:33.33%;
+.span4 {
+    width: 33.33%;
 }
 
-.bg-purple{
+.bg-purple {
     background-color: rgb(248, 194, 248);
-    
+
 }
-.bg-red{
+
+.bg-red {
     background-color: rgb(253, 191, 191);
 }
-.bg-green{
+
+.bg-green {
     background-color: rgb(194, 250, 194);
 }
-.bg-pink{
+
+.bg-pink {
     background-color: rgb(243, 193, 243);
 }
 
-.text-purple{
+.text-purple {
     color: purple;
-    
+
 }
-.text-red{
-    color:red;
+
+.text-red {
+    color: red;
 }
-.text-green{
-    color:green;
+
+.text-green {
+    color: green;
 }
-.text-pink{
+
+.text-pink {
     color: rgb(224, 29, 143);
 }
 
@@ -142,11 +150,12 @@ nav ul li {
 .row {
     display: flex;
     flex-wrap: wrap;
-    
- 
+
+
 }
 
-.row>* { /*Universal Selector*/
+.row>* {
+    /*Universal Selector*/
     padding-left: 1em;
     padding-right: 01em;
 }
@@ -197,7 +206,8 @@ nav ul li {
     border: 2px solid #0953ff;
 }
 
-.material-symbols-outlined {     /*Obtained from the google icons*/
+.material-symbols-outlined {
+    /*Obtained from the google icons*/
     font-variation-settings:
         'FILL' 0,
         'wght' 400,
@@ -206,73 +216,80 @@ nav ul li {
 }
 
 /*Stat Section*/
-#stat{
+#stat {
     margin-top: -35px;
-    position:relative;
+    position: relative;
 }
 
-.stat-item{
+.stat-item {
     background-color: #ffff;
-    padding:15px;
+    padding: 15px;
     border-radius: 10px;
-    box-shadow: 10px 15px 20px rgb(94, 94,94,0.1)  ;
-    border:1px solid #ddd;
+    box-shadow: 10px 15px 20px rgb(94, 94, 94, 0.1);
+    border: 1px solid #ddd;
 }
 
-.stat-icon{
-    width:50px;
+.stat-icon {
+    width: 50px;
     height: 50px;
     font-size: 20px;
-    text-align:center;
+    text-align: center;
     border-radius: 50%;
-    float:left;
-   line-height: 50px !important;
-   margin-right:10px;
-   position: relative;
-   top:-9px;
+    float: left;
+    line-height: 50px !important;
+    margin-right: 10px;
+    position: relative;
+    top: -9px;
 }
-.stat-item p{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:13px;
+
+.stat-item p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
 }
-.stat-count{
+
+.stat-count {
     font-weight: bold;
 }
 
 /*About Section*/
-#about{
+#about {
     background-color: rgb(258, 242, 238);
-    padding-top:70px;
-    padding-bottom: 70px; /*(or) padding: 80px 0*/
+    padding-top: 70px;
+    padding-bottom: 70px;
+    /*(or) padding: 80px 0*/
     margin-top: -30px;
 }
 
-.section-title{
+.section-title {
     margin-bottom: 40px;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.section-title h2{
+.section-title h2 {
     font-size: 40px;
     font-weight: 600;
 }
-.section-title p{
-    width:50%;
-    margin:auto; /*This helps to bring the para element to center of the page*/
-    margin-top:20px;
-    color:rgb(50,50,50)
+
+.section-title p {
+    width: 50%;
+    margin: auto;
+    /*This helps to bring the para element to center of the page*/
+    margin-top: 20px;
+    color: rgb(50, 50, 50)
 }
-.about-item{
+
+.about-item {
     background-color: white;
-    box-shadow:10px 15px 20px rgba(94,94,94,0.1);
+    box-shadow: 10px 15px 20px rgba(94, 94, 94, 0.1);
     padding: 40px;
 }
-.about-item span{
-    height:50px;
-    width:50px;
+
+.about-item span {
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     float: left;
     text-align: center;
@@ -280,139 +297,147 @@ nav ul li {
     margin-right: 20px;
 }
 
-.about-item h3{
-    font-size:20px;
-    
+.about-item h3 {
+    font-size: 20px;
+
 }
-.about-item p{
-  clear:both; /*Clears the effect of float left which is used in above elements*/
-  margin-top: 20px;
-  color:rgb(50,50,50);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.about-item p {
+    clear: both;
+    /*Clears the effect of float left which is used in above elements*/
+    margin-top: 20px;
+    color: rgb(50, 50, 50);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*Courses section*/
 
-#courses{
-    background-color: rgb(249,249,249);
-    padding:80px 0;
+#courses {
+    background-color: rgb(249, 249, 249);
+    padding: 80px 0;
     margin-top: 10px;
 }
 
-.section-button{
-    float:right;
+.section-button {
+    float: right;
     margin-bottom: 25px;
     margin-top: 25px;
 }
 
-.course-item{
-    width:320px;
+.course-item {
+    width: 320px;
     margin-left: 10px;
     margin-bottom: 25px;
-    background-color:white;
+    background-color: white;
     border-radius: 2%;
-    box-shadow:10px 15px 20px rgba(94,94,94,0.4) ;
-    transition:0.5s ease;
+    box-shadow: 10px 15px 20px rgba(94, 94, 94, 0.4);
+    transition: 0.5s ease;
 }
 
-.course-item:hover{
-    box-shadow: 12px 20px 20px rgba(94,94,94,0.7);
+.course-item:hover {
+    box-shadow: 12px 20px 20px rgba(94, 94, 94, 0.7);
 }
 
-.course-image{
+.course-image {
     position: relative;
 }
-.course-image img{
-    width:100%;
+
+.course-image img {
+    width: 100%;
     padding-top: 40px;
-    height:250px;
+    height: 250px;
 }
-.course-image span{
-    position:absolute;
-    top:5px;
-    left:5px;
-     background-color: rgb(84,125,247);
-    color:white;
-    padding:2px 5px;
-    border-radius:5px;
+
+.course-image span {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: rgb(84, 125, 247);
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
     transition: all 0.3s ease-out;
 }
 
-.course-image span:hover{
+.course-image span:hover {
     background-color: #cb44cb;
 }
 
-.course-item h3{
+.course-item h3 {
     margin: 20px auto;
     text-align: center;
-    transition:0.3s;
-}
-.course-item a:hover{
-    color:#cb44cb;
+    transition: 0.3s;
 }
 
-.course-info{
+.course-item a:hover {
+    color: #cb44cb;
+}
+
+.course-info {
     text-align: center;
 }
-.course-info p{
-    display:inline;
-    margin-left:20px;
+
+.course-info p {
+    display: inline;
+    margin-left: 20px;
     align-items: center;
-    
+
 }
 
 
-.course-price{
+.course-price {
     text-align: center;
-    border-top:1px solid #ccc;
-    color:#0953ff;
-    font-size:18px;
+    border-top: 1px solid #ccc;
+    color: #0953ff;
+    font-size: 18px;
     font-weight: 600;
-    padding-top:10px ;
+    padding-top: 10px;
     padding-bottom: 10px;
     transition: 0.3s;
 }
-.course-price:hover{
-    color:#cb44cb;
-    
+
+.course-price:hover {
+    color: #cb44cb;
+
 }
 
-.course-price span{
-   font-size: 16px;
-   transition:0.3s;
+.course-price span {
+    font-size: 16px;
+    transition: 0.3s;
 }
 
-.course-price span{
-    color:#0953ff;
+.course-price span {
+    color: #0953ff;
 }
 
 /*Footer Section*/
-footer{
-    background-color: rgb(245,245,252);
-    padding:80px 0;
+footer {
+    background-color: rgb(245, 245, 252);
+    padding: 80px 0;
 }
 
-footer img{
-    width:150px;
+footer img {
+    width: 150px;
     margin-bottom: 10px;
 }
 
-footer p{
+footer p {
     margin-bottom: 10px;
 }
-footer ul{
-    list-style-type:none;
-    padding-left:0px ;
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0px;
 }
 
-.socialmedia ul li{
+.socialmedia ul li {
     display: inline-block;
     margin-right: 10px;
 }
 
-.socialmedia ul li a{
+.socialmedia ul li a {
     background-color: white;
-    width:40px;
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     display: block;
@@ -420,27 +445,29 @@ footer ul{
     line-height: 40px;
 }
 
-footer h3{
+footer h3 {
     margin-bottom: 20px;
 
 }
- footer ul li{
+
+footer ul li {
     margin-bottom: 10px;
 
- }
- 
- .contact-info span{
-    color:#0953ff;
-    font-size:20px ;
+}
+
+.contact-info span {
+    color: #0953ff;
+    font-size: 20px;
     position: relative;
-    top:5px;
- }
- 
- .contact-info p{
-    display:inline-block;
+    top: 5px;
+}
+
+.contact-info p {
+    display: inline-block;
     margin-bottom: 20px;
- }
-.socialmedia ul li a:hover{
+}
+
+.socialmedia ul li a:hover {
     background-color: #cb44cb;
-    color:white;
+    color: white;
 }

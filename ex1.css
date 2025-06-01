@@ -54,7 +54,7 @@ a:hover {
 }
 
 .logo {
-    width: 25%;
+    width: 20%;
     display: block;
 }
 
@@ -343,6 +343,7 @@ nav ul li {
 
 .course-image span {
     position: absolute;
+    
     top: 5px;
     left: 5px;
     background-color: rgb(84, 125, 247);
